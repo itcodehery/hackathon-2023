@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eat.caias</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/studteach.css') }}" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar-color" style="background-color: #2F2820; color: #2F2820;">
+        <a class="titleHeadingA" href="{{ url_for('index') }}">eat.caias</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Account<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Orders</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+    <header class="appBar">
+        <div class="actions">
+            
+            <div class="card" style="
+                background-color: transparent;
+                color: #FFFFFF ;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                margin: 5px;
+                margin-bottom: 15px;
+
+            ">
+            <div class = "webTitle">
+              <h1 class="HeadingMain">Hello, Vaibhav</h1>
+              <h5 class="SubHeading">Browse through Canteen Stall menus</h5>
+          </div>
+                <div class="card-body" style="background-color: #231e1b; color: #fdefbe; border-radius: 12px;">
+                <span style="display: flex; flex-direction: row;">
+                    <h5 class="card-title" style="margin-right: 1%;">Mayur's Paradise</h5>
+                    <p class="card-text"> #018</p>
+                </span>
+                  <a href="{{ url_for('vendor_menu') }}" class="btn-custom">View Menu</a>
+                </div>
+                <p></p>
+                <div class="card-body" style="background-color: #231e1b; color: #fdefbe; border-radius: 12px;">
+                    <span style="display: flex; flex-direction: row;">
+                        <h5 class="card-title" style="margin-right: 1%;">Diya's Kitchen</h5>
+                        <p class="card-text"> #019</p>
+                    </span>
+                      <a href="#" class="btn-custom">View Menu</a>
+                </div>
+                <p></p>
+                <div class="card-body" style="background-color: #231e1b; color: #fdefbe; border-radius: 12px;">
+                    <span style="display: flex; flex-direction: row;">
+                        <h5 class="card-title" style="margin-right: 1%;">Hunger Nation</h5>
+                        <p class="card-text"> #020</p>
+                    </span>
+                    <a href="#" class="btn-custom">View Menu</a>
+                </div>    
+              </div>              
+        </div>
+    </header>
+</body>
+</html>

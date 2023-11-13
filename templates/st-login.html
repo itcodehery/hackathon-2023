@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eat.caias</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/st-login.css') }}" />
+</head>
+
+<body>
+    <div class="login">
+        <h1 class="heading">eat.caias</h1>
+        <p>Student/Lecturer Login | Login with your college ID:</p>
+        <form>
+            <label for="fname">Email:</label>
+            <input type="text" name="email" placeholder="Email" required="required" class="text-field" />
+            <p></p>
+            <label for="lname">Password:</label>
+            <input type="password" name="password" placeholder="Password" required="required" class="text-field" />
+            <p></p>
+            <input type="submit" value="Login" class="button" />
+            <input type="checkbox" checked="checked"> Remember me     
+            <a href="#"> Forgot password? </a>   
+        </form>
+    </div>
+</body>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>eat.caias</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/vendor-menu.css') }}" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar-color" style="background-color: #2F2820; color: #2F2820;">
+            <a class="titleHeadingA" href="{{ url_for('index') }}">eat.caias</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Account</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Orders</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <div style="margin: 10px;">
+        <h1 class="HeadingMain">Menu</h1>
+        <h3 class="SubHeading">Mayur's Paradise</h3>
+        <div class="card">
+          <div class="left-section">
+            <a class="plus-minus" href="/increment"><button class="Quantity-Button">+</button></a>
+            <span class="Quantity">{{quantity}}</span>
+            <a class="plus-minus" href="/decrement"><button class="Quantity-Button">-</button></a>
+          </div>
+          <div class="middle-section">
+            <h2>Chicken Fried Rice</h2>
+          </div>
+          <div class="right-section">
+            <p class="tag">AVAILABLE</p>
+            <p class="tag">NON-VEG</p>
+          </div>
+          <div class="price">₹ 50</div>
+        </div>
+        <div class="card">
+          <div class="left-section">
+            <a class="plus-minus" href="/increment"><button class="Quantity-Button">+</button></a>
+            <span class="Quantity">{{quantity}}</span>
+            <a class="plus-minus" href="/decrement"><button class="Quantity-Button">-</button></a>
+          </div>
+          <div class="middle-section">
+            <h2>Chicken Noodles</h2>
+          </div>
+          <div class="right-section">
+            <p class="tag">AVAILABLE</p>
+            <p class="tag">NON-VEG</p>
+          </div>
+          <div class="price">₹ 50</div>
+        </div>
+        </div> 
+    </body>    
+</html>

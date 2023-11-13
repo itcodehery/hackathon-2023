@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #231e1b;
+    background-image: url('images/1492306919.jpg'); 
+    background-size: cover;
+    color: #fdefbe;
+    font-family: 'SF Pro Display', 'sans-serif';
+}
+
+.appBar {
+    padding: 1%;
+    height: min-content;
+}
+.titleHeadingA {
+    color:#fff;
+    font-family: 'Takota', 'cursive';
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.titleHeadingA:hover {
+    color: #fca543;
+    text-decoration: none;
+}
+
+.HeadingMain {
+    color: #ffffff;
+    font-size: 62px;
+    font-family: 'Takota', 'sans-serif';
+}
+
+.SubHeading {
+    color: #fdefbe;
+    font-family: 'SF Pro Display Regular', 'sans-serif';
+}
+
+.btn-custom {
+    background-color: #231e1b; /* Define your custom background color */
+    color: #fff; /* Define your custom text color */
+    font-family: "SF Pro Display", "sans-serif";
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .btn-custom:hover {
+    background-color: #fdefbe; /* Define your custom hover background color */
+    color: #231e1b; /* Define your custom hover text color */
+    text-decoration: none;
+  }
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondaryButton {
+
+    color: #fdefbe;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}

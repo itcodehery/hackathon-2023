@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'SF Pro Display'; /* Name your custom font */ 
+    
+    src: url('/static/fonts/SFPRODISPLAYMEDIUM.OTF') format('OTF'); 
+}
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('/static/fonts/SFPRODISPLAYREGULAR.OTF') format('OTF');
+}
+
+
+@font-face {
+    font-family: 'Takota';
+    src: url('static/fonts/Takota.otf') format('otf');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/1492306919.jpg'); 
+    background-size: cover;
+    background-color: #231e1b;
+    color: #fdefbe;
+    font-family: 'SF Pro Display', 'sans-serif';
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.TitSubTit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.action1button {
+    background-color: #181513;
+    color: #fdefbe;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    font-family: 'SF Pro Display', 'sans-serif';
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.action1button:hover {
+    background-color: #513f2b;
+    color: #fdefbe;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    font-family: 'SF Pro Display', 'sans-serif';
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.appBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F2820;
+    color: #fff;
+    padding: 10px 120px;
+    align-self: center;
+    /*height: 100vh;*/
+}
+
+.webTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.HeadingMain {
+    font-family: 'Takota', 'sans-serif';
+    font-size: 48px;
+    color:#fff;
+    font-weight: normal;
+}
+
+.Headings {
+    font-family: 'Takota', 'sans-serif';
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.HeadingMain2 {
+    font-family: 'Takota', 'sans-serif';
+    font-size: 48px;
+    font-weight: normal;
+    color: #e29742;
+}
+
+.SubHeading {
+    font-family: 'SF Pro Display', 'sans-serif';
+    font-size: medium;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F2820;
+    border-radius: 10px;
+    color: #fdefbe;
+    padding: 10px 120px;
+    align-self: center;
+}

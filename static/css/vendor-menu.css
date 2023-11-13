@@ -1,0 +1,131 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #2F2820;
+    background-image: url('images/1492306919.jpg'); 
+    background-size: cover; /* This ensures the image covers the entire background */
+    color: #fdefbe;
+    font-family: 'SF Pro Display', 'sans-serif';
+}
+
+
+.titleHeadingA {
+    color:#fff;
+    font-family: 'Takota', 'cursive';
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.titleHeadingA:hover {
+    color: #fca543;
+    text-decoration: none;
+}
+
+.HeadingMain {
+    color: #ffffff;
+    font-size: xx-large;
+    font-family: 'Takota', 'sans-serif';
+}
+
+.SubHeading {
+    color: #fdefbe;
+    font-size: 12px;
+    font-family: 'SF Pro Display', 'sans-serif';
+}
+
+.Quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #231e1b;
+    color:#fdefbe;
+    font-family: 'SF Pro Display', 'sans-serif';
+    font-size: x-large;
+}
+
+.Quantity-Button {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    border-radius: 50px;
+    font-family: 'SF Pro Display', 'sans-serif';
+    text-align: center;
+    cursor: pointer;
+    background-color: #231e1b;
+    color:#fdefbe;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2F2820;
+    color: #fdefbe;
+    padding: 10px;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #2F2820;
+    justify-content: space-evenly;
+    vertical-align: middle;
+  }
+  
+  .plus-minus {
+    background-color: #2F2820;
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+  }
+  
+  .middle-section {
+    background-color: #2F2820;
+    color: #fdefbe;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'SF Pro Display', 'sans-serif';
+
+  }
+  
+  .right-section {
+    background-color: #2F2820;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fdefbe;
+    text-align: center;
+  }
+
+  .tag {
+    background-color: #231e1b;
+    color: #fdefbe;
+    width: auto;
+    height: 24px;
+    font-size: 10px;
+    font-family: 'SF Pro Display', 'sans-serif';
+    padding: 5px;
+    border-radius: 50px;
+    margin: 10px;
+  }
+  
+  .price {
+    background-color: #2F2820;
+    color: #fdefbe;
+    font-family: 'SF Pro Display', 'sans-serif';
+    font-size: 24px;
+    margin: 5px;
+    text-align: center;
+  }

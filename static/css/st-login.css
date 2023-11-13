@@ -1,0 +1,51 @@
+body {
+    background-color: #231e1b;
+}
+
+.heading {
+    font-family: 'Takota' , 'sans-serif';
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.login {
+    background-color: #231e1b;
+    color:#fdefbe;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #0000001a;
+}
+
+.text-field {
+    background-color: #231e1b;
+    color:#fdefbe;
+    border: solid;
+    border-color: #fdefbe;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    box-shadow: 0px 0px 10px 0px #0000001a;
+}
+
+.button {
+    background-color: #2F2820;
+    color:#fdefbe;
+    border: none;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.button:hover {
+    background-color: #fdefbe;
+    color:#2F2820;
+    border: none;
+    border-radius: 20px;
+    padding: 1%;
+}
